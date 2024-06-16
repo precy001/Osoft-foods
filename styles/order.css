@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#cccccc;
+    font-family: 'geologica', sans-serif;
+}
+
+.top{
+    background-image: url(../assets/Images/home_top.png);
+    background-size:100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #0e0e0e;
+    padding: 160px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin: -160px 0;
+}
+
+.nav{
+    float: right;
+    margin: 2rem;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+    transition: .7s ease-in-out;
+}
+
+.nav a:hover{
+    opacity: 0.8;
+    background-color: tomato;
+}
+
+.osoft-sardine-bread{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 2.5rem;
+}
+
+.osoft{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+
+
+.home{ 
+    background-size:100%;
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    transition: background-image 4s ease-in-out;
+
+}
+
+.each{
+    animation: show-text 4s ease-in-out;
+}
+
+@keyframes show-text{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+hr{
+    width: 10%;
+    height: 2px;
+    background-color: #144527;
+    border: none;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.order{
+    font-size: 1.5rem;
+    padding: 2rem;
+    padding-bottom: .2rem;
+}
+
+.note{
+    padding: 1rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem;
+}
+.products-list{
+    margin-right: 1rem;
+    width: 20%;
+    height: 2.5rem;
+    text-indent: 10px;
+}
+
+.qty{
+    width: 20rem;
+    height: 2.5rem;
+    text-indent: 10px;
+}
+
+.number{
+    width: 20rem;
+    height: 2.5rem;
+    text-indent: 10px;
+}
+
+.time, .date{
+    width: 20rem;
+    height: 2.5rem;
+    text-indent: 10px;
+}
+
+.time{
+    margin-right: 1rem;
+}
+
+select, input{
+    border: 1px solid gray;
+}
+
+.locations{
+    margin-right: 1rem;
+    width: 20%;
+    height: 2.5rem;
+    text-indent: 10px;
+}
+
+.submit{
+    width: 40%;
+    height: 2.5rem;
+    text-indent: 10px;
+    color: white;
+    background-color: #144527;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    opacity: 0.8;
+}
