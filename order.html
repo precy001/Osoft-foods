@@ -34,7 +34,7 @@
 
     <form action="" class="form" method="post">
         <div class="row">
-        <select name="" id="" class="products-list" required>
+        <select name="product" id="" class="products-list" required>
             <option value="Select a product" selected disabled>Select a product</option>
             <option value="OSOFT SPAGHETTI">OSOFT SPAGHETTI</option>
             <option value="OSOFT SARDINE BREAD">OSOFT SARDINE BREAD</option>
@@ -44,12 +44,12 @@
         </select>
 
         <div class="quantity">
-            <input type="number" name="" id="" placeholder="Quantity" class="qty" required min="1">
+            <input type="number" name="quantity" id="" placeholder="Quantity" class="qty" required min="1">
         </div>
     </div>
 
     <div class="row">
-        <select name="" id="" class="locations" required>
+        <select name="location" id="" class="locations" required>
             <option value="Select your location" selected disabled>Select your location</option>
             <option value="Unilag Main Gate">Unilag Main Gate</option>
             <option value="Multipurpose Hall">Multipurpose hall</option>
@@ -85,17 +85,17 @@
         </select>
 
         <div class="phone">
-            <input type="text" name="" id="" placeholder="Phone No." class="number" required>
+            <input type="text" name="phone_number" id="" placeholder="Phone No." class="number" required>
         </div>
     </div>
 
     <div class="note">Select your preferred delivery date and time (Pre-order)</div>
     <div class="row">   
-        <input type="time" name="" id="" class="time"> 
-        <input type="date" name="" id="" class="date">
+        <input type="time" name="time" id="" class="time"> 
+        <input type="date" name="date" id="" class="date">
     </div>
 
-    <button type="button" class="submit">Submit</button>
+    <button type="button" class="submit" name="submit">Submit</button>
     </form>
         </center>
     </body>
