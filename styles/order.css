@@ -21,7 +21,7 @@ body{
     background-color: #0e0e0e;
     padding: 160px 0;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: 1;
     background-size: cover;
     background-position: center;

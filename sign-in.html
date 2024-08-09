@@ -16,20 +16,31 @@
         </div>
     </header>
     <center>
-        <form class="form in" >
+        <form class="form in" onsubmit="consoleLog(event);">
             <p class="title">Create a new account</p>
                 <label>
-                    <input required="" placeholder="" type="text" class="input">
+                    <input required="" placeholder="" type="text" class="input username" name="">
                     <span>Username</span>
                 </label>
                 
             <label>
-                <input required="" placeholder="" type="password" class="input">
+                <input required="" placeholder="" type="password" class="input userPassword">
                 <span>Password</span>
             </label>
-            <button class="submit">Sign in </button>
+            <button class="submit" >Sign in </button>
             <p class="signin">Don't have an account ? <a href="sign-up.html">Sign-Up</a></p>
         </form>
     </center>
 </body>
+
+<script>
+
+    const username = document.querySelector('.username')
+    const userPassword = document.querySelector('.userPassword')
+    function consoleLog(event){
+        event.preventDefault();
+        console.log(username.value);
+        console.log(userPassword.value)
+    }
+</script>
 </html>
